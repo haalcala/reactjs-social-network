@@ -4,8 +4,8 @@ import "./feed.css"
 
 export default function Feed() {
     return (
-        <div>
-            this is feed
+        <div className="feed">
+            <div className="feedWrapper"></div>
         </div>
     )
 }
