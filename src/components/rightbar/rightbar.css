@@ -1,3 +1,45 @@
 .rightbar {
     flex: 3.5;
 }
+
+.rightbarWrapper {
+    padding: 20px 20px 0 0;
+}
+
+.birthdayText {
+    font-size: 15;
+    font-weight: 300;
+}
+
+.rightbarAd {
+    width: 100%;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+.rightbarProfileImageContainer {
+    margin-right: 10px;
+    position: relative;
+}
+
+.rightbarProfileImg {
+}
+
+.rightbarOnline {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: limegreen;
+    position: absolute;
+    top: -5px;
+    right: 3px;
+    border: 2px solid white;
+}
+
+.rightbarUsername {
+    font-weight: 500;
+}
+
+.onlineFriendListItem {
+    margin-bottom: 10px;
+}

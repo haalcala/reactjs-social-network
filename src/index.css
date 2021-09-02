@@ -1,13 +1,224 @@
 * {
-  margin: 0;
-  font-family: sans-serif, 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: "Roboto", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell",
+        "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.profileImage {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.icon1 {
+    height: 24px;
+    width: 24px;
+    /* background-image: "/assets/Daco_4044194.png"; */
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.icon40 {
+    height: 40px;
+    width: 40px;
+    /* background-image: "/assets/Daco_4044194.png"; */
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+}
+
+.container3 {
+    display: flex;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+/* profile */
+.profile {
+}
+
+.profileRight {
+    flex: 9;
+}
+
+.profileBottom {
+}
+
+.profileCover {
+    height: 320px;
+    position: relative;
+}
+
+.profileCoverImg {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.profileUserImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 150px;
+    border: 3px solid white;
+}
+
+.profileInfo {
+    flex-direction: column;
+}
+.profileInfoName {
+    font-size: 24px;
+}
+.profileInfoDesc {
+    font-weight: 300;
+}
+
+.rightbarFollowings {
+    flex-wrap: wrap;
+}
+
+.rightbarFollowings div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.rightbarFollowings img {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.rightbarInfo {
+    margin-bottom: 30px;
+    font-weight: 500;
+    color: #555;
+}
+
+.rightbarInfoItem {
+    margin-bottom: 10px;
+}
+
+.rightbarInfoKey {
+    margin-right: 10px;
+}
+
+.rightbarInfoValue {
+    font-weight: 300;
+}
+
+/* Login */
+
+.login {
+    border: 1px solid red;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f2f5;
+    justify-content: center;
+}
+
+.loginWrapper {
+    width: 70%;
+    height: 70%;
+}
+
+.loginLeft,
+.loginRight {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginLogo {
+    font-size: 50px;
+    font-weight: 800;
+    color: #1775ee;
+    margin-bottom: 10px;
+}
+
+.loginDesc {
+    font-size: 24px;
+    width: 400px;
+}
+
+.loginBox {
+    /* height: 300px; */
+    padding: 20px;
+    background-color: #fff;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.loginInput {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.loginButton {
+    height: 50px;
+    border-radius: 10px;
+    background-color: #1775ee;
+    color: white;
+}
+
+.loginForgot {
+    text-align: center;
+    color: #1775ee;
+    margin-bottom: 10px;
+}
+
+.loginRegisterButton {
+    margin-top: 10px;
+    background-color: #42b72a;
+}
+
+.loginBox * {
+    margin-bottom: 10px;
 }
