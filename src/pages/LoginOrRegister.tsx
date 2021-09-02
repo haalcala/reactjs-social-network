@@ -26,3 +26,7 @@ export default function LoginOrRegister(login?: boolean) {
         )
     );
 }
+
+LoginOrRegister.propTypes = {
+    login: "required",
+};
